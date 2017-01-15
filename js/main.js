@@ -30,7 +30,7 @@ function askQuestions() {
 //when page loaded: below is showing, when JQ has loaded run the following code
 $(function() {
 	//when the user clicks h3 element: JQ can recognise CSS identifiers
-	$('img').on('click', askQuestions) {
+	$('img').on('click', askQuestions);
 
 	//when the user clicks h3 element: JQ can recognise CSS identifiers
 	$('h3').on('click', function() {
